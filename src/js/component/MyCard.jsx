@@ -16,7 +16,7 @@ function MyCard() {
         </Card.Body>
       </Card>
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src="https://unsplash.com/es/fotos/uuBBew6g2jM" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
@@ -26,7 +26,7 @@ function MyCard() {
         </Card.Body>
       </Card>
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src="https://unsplash.com/es/fotos/uuBBew6g2jM" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
