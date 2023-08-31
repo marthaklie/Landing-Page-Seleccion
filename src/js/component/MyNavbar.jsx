@@ -8,15 +8,13 @@ const MyNavbar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Tu landing page</Navbar.Brand>
+        <Navbar.Brand href="#home">Copa Mundial Femenina de la FIFA 2023</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            
-
           </Nav>
           <Nav>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+            <NavDropdown title="Home" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">About</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Services
@@ -25,9 +23,6 @@ const MyNavbar = () => {
               <NavDropdown.Item href="#action/3.4">
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link eventKey={2} href="#memes">
-              Home
-            </Nav.Link>
             <Nav.Link href="#deets">About</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Services

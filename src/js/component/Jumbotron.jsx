@@ -4,17 +4,20 @@ import Card from 'react-bootstrap/Card';
 
 function Jumbotron() {
   return (
-    <Card className="bg-primary text-white">  
-      <Card.Body>
-        <Card.Title><h1>A Warm Welcome!</h1></Card.Title>
-        <Card.Text>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est laborum distinctio accusamus aperiam quasi numquam maxime tempora quis. Ab, dignissimos?
-        </Card.Text>
-        <Button variant="light">Call to action!</Button>
-      </Card.Body>
-    </Card>
+    <div className="justify-content-center gap-1 my-1 ">
+      <Card className="bg-primary text-white">
+        <Card.Body className='myCardBody'>
+          <Card.Title className='m-4'><h1>¡Jugar, luchar y ganar!</h1></Card.Title>
+          <Card.Text className='m-4'>
+            ¡Así son las jugadoras de la selección femenina de fútbol de España!
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </div>
+
   );
 }
+
 
 export default Jumbotron;
 
