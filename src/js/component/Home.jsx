@@ -11,7 +11,7 @@ const Home = () => {
 		<div>
 			<MyNavbar />
 			<Jumbotron />
-			<MyCard/>
+			<MyCard />
 			<Footer />
 		</div>
 	);

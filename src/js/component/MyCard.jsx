@@ -7,7 +7,7 @@ function MyCard() {
     <><><div className="d-flex justify-content-center gap-3 my-4 ">
       <Card border="danger" style={{ width: '18rem' }}>
         <Card.Img variant="top" src="https://images.hola.com/imagenes/actualidad/20230721236051/conoce-a-las-jugadoras-de-la-seleccion-espaola-de-futbol-femenino/1-284-60/cata-coll-a.jpg" />
-        <Card.Body>
+         <Card.Body>
           <Card.Title>Cata Coll</Card.Title>
           <Card.Text>
             Cata Coll es una de las porteras de la selección. Con 22 años es campeona de Europa y del Mundo Sub-17 y subcampeona del mundo Sub-20.
@@ -30,7 +30,7 @@ function MyCard() {
         <Card.Body>
           <Card.Title>Alexia Putellas</Card.Title>
           <Card.Text>
-            Con 29 años Alexia Putellas tiene ya dos balones de oro y vuelve a la selección después de superar la lesión de ligamento cruzado. Destaca por sus pases y su llegada.
+            Con 29 años, Alexia Putellas tiene ya dos balones de oro y vuelve a la selección después de superar la lesión de ligamento cruzado. Destaca por sus pases y su llegada.
           </Card.Text>
           <Button variant="danger">Quiero saber más!</Button>
         </Card.Body>
@@ -40,13 +40,13 @@ function MyCard() {
         <Card.Body>
           <Card.Title>Jennifer Hermoso</Card.Title>
           <Card.Text>
-            Con 33 años Jennifer Hermoso es internacional absoluta con la selección española desde 2012 y la máxima goleadora histórica de la selección.
+            Con 33 años, Jennifer Hermoso es internacional absoluta con la selección española desde 2012 y la máxima goleadora histórica de la selección.
           </Card.Text>
           <Button variant="primary">Quiero saber más!</Button>
         </Card.Body>
       </Card>
     </div>
-    <div className="d-flex justify-content-center gap-3 my-4 ">
+      <div className="d-flex justify-content-center gap-3 my-4 ">
         <Card border="danger" style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://images.hola.com/imagenes/actualidad/20230721236051/conoce-a-las-jugadoras-de-la-seleccion-espaola-de-futbol-femenino/1-283-623/irene-paredes-a.jpg" />
           <Card.Body>
@@ -72,7 +72,7 @@ function MyCard() {
           <Card.Body>
             <Card.Title>Olga Carmona</Card.Title>
             <Card.Text>
-              Con 23 años Olga Carmona es lateral pero puede jugar de extremo. Jugadora vertical que genera mucho peligro por la banda.
+              Con 23 años, Olga Carmona es lateral pero puede jugar de extremo. Jugadora vertical que genera mucho peligro por la banda.
             </Card.Text>
             <Button variant="danger">Quiero saber más!</Button>
           </Card.Body>

@@ -9,7 +9,7 @@ function Jumbotron() {
         <Card.Body className='myCardBody'>
           <Card.Title className='m-4'><h1>¡Jugar, luchar y ganar!</h1></Card.Title>
           <Card.Text className='m-4'>
-            ¡Así son las jugadoras de la selección femenina de fútbol de España!
+            ¡Así son las jugadoras de la Selección Absoluta Femenina de Fútbol de España!
           </Card.Text>
         </Card.Body>
       </Card>
