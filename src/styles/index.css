@@ -1,6 +1,8 @@
 .myCardBody {
 background-color:red;
 
-
 }
 
+.myNavbar {
+    width: min(500px, 60vw);
+}

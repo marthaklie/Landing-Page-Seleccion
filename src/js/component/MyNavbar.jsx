@@ -8,7 +8,9 @@ const MyNavbar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Copa Mundial Femenina de la FIFA 2023</Navbar.Brand>
+        <Navbar.Brand href="#home" className="text-truncate">
+          Copa Mundial Femenina de la FIFA 2023
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
